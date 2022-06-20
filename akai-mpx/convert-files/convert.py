@@ -5,10 +5,10 @@ print("Convert files...")
 
 root_dir = os.path.dirname(os.path.realpath(__file__))
 
-raw_dir = root_dir + "/raw"
+raw_dir = root_dir + "/files/raw"
 raw_files = glob.glob(raw_dir + "/*")
 
-out_dir = root_dir + "/out"
+out_dir = root_dir + "/files/out"
 if not os.path.exists(out_dir):
     os.mkdir(out_dir)
 

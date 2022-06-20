@@ -1,0 +1,1 @@
+aws s3 sync ./files/ s3://chestercodes-music-tech-notes/akai-mpx/convert-files/files/ 
